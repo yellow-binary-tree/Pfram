@@ -1,7 +1,7 @@
 Understanding Multimodal Hallucination with Parameter-Free Representation Alignment (Pfram)
 ---
 
-[![arXiv](https://img.shields.io/badge/cs.CV-1234.56789-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/1234.56789)
+[![arXiv](https://img.shields.io/badge/cs.CV-2409.01151-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2409.01151)
 
 # Installation
 ```bash
@@ -120,5 +120,13 @@ OI_POPE_ACC = {
 # Citation
 If you find this code useful in your research, please cite:
 ```bibtex
-
+@misc{wang2024pfram,
+      title={Understanding Multimodal Hallucination with Parameter-Free Representation Alignment},
+      author={Yueqian Wang and Jianxin Liang and Yuxuan Wang and Huishuai Zhang and Dongyan Zhao},
+      year={2024},
+      eprint={2409.01151},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2409.01151},
+}
 ```
