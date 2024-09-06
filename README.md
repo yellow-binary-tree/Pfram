@@ -3,6 +3,14 @@ Understanding Multimodal Hallucination with Parameter-Free Representation Alignm
 
 [![arXiv](https://img.shields.io/badge/cs.CV-2409.01151-b31b1b?logo=arxiv&logoColor=b31b1b)](https://arxiv.org/abs/2409.01151)
 
+# Introduction
+Parametric-free representation alignment metric (Pfram) is a metric that can measure the alignment of a neural representation system with a human representation system without requiring additional training parameters, which reflects the ability of the neural representation system to represent a certain aspect of images. 
+
+![scatter with pope acc](assets/scatter_with_pope_acc.png)
+As shown in the above scatter plot, when using human-annotated object labels ($\mathcal{G}_{obj}$) as the human representation system to measure the object recognizing ability of visual encoders ($\mathcal{M}$) of multimodal large language models (MLLMs), Pfram shows strong and robust correlation with MLLM object hallucination ([POPE acc](https://arxiv.org/abs/2305.10355)) across different similarity metrics ($\mathcal{\phi}$) and image datasets (OIv7/AMBER).
+
+For more details and usages of Pfram, please refer to [our paper](https://arxiv.org/abs/2409.01151).
+
 # Installation
 ```bash
 conda create -n pfram python=3.10
